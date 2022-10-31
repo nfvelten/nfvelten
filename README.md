@@ -5,6 +5,8 @@ I am involved in numerous stages of development, from the architecture and desig
 
 Always valuing excellent programming principles such as TDD, Clean and Hex Arch, DDD, and using agile approaches such as SCRUM and Kanban for better management and increased productivity
 
+btw: i use arch
+
 <div>
   <a href="https://github.com/nfvelten">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=oxyli6z&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
