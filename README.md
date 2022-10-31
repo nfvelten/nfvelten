@@ -1,4 +1,4 @@
-### Hi there 👋
+# Hi there 👋
 I am an experienced TypeScript software developer with expertise developing, maintaining, and documenting full-stack applications.
 
 I am involved in numerous stages of development, from the architecture and design of new systems through the provisioning of visible and highly-available cloud infrastructure.
