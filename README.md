@@ -12,5 +12,14 @@ i use arch btw
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nfvelten&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nfvelten&layout=compact&langs_count=7&theme=dracula"/>
 </div>
+
+<center>
+  <table>
+    <tr>
+        <td><img width="400px" align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nfvelten&hide=html&layout=compact&theme=dark" /></td>
+        <td><img width="495px" align="left" src="https://github-readme-stats.vercel.app/api?username=nfvelten&theme=dark&count_private=true"/></td>
+    </tr>   
+  </table>
+</center>
   
 <img align="right" src="https://community.gamedev.tv/uploads/db2322/original/3X/a/6/a6b2be843042629e6713be29f0f6312f1a9fb311.gif">
