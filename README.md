@@ -21,14 +21,13 @@ i use arch btw
 <img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <br />
-<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 
 ### 📊 Github Stats
 <center>
     <table>
-    <tr>
+      <tr>
         <td><img height="180em" src="https://github-readme-stats.vercel.app/api?username=nfvelten&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/></td>
         <td><img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nfvelten&layout=compact&langs_count=7&theme=dracula"/></td>
-    </tr>   
+      </tr>   
     <table>
 </center>
