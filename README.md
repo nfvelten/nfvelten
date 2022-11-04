@@ -23,6 +23,7 @@ i use arch btw
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <br />
 
+### 📊 Github Stats
 <center>
     <tr>
         <td><img height="180em" src="https://github-readme-stats.vercel.app/api?username=nfvelten&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/></td>
