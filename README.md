@@ -24,10 +24,8 @@ i use arch btw
 <br />
 
 <center>
-  <table>
     <tr>
         <td><img height="180em" src="https://github-readme-stats.vercel.app/api?username=nfvelten&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/></td>
         <td><img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nfvelten&layout=compact&langs_count=7&theme=dracula"/></td>
     </tr>   
-  </table>
 </center>
