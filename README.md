@@ -4,7 +4,7 @@ I'm a TypeScript software engineer with a background in developing, deploying, t
 
 i use arch btw
 
-<img align="right" src="https://community.gamedev.tv/uploads/db2322/original/3X/a/6/a6b2be843042629e6713be29f0f6312f1a9fb311.gif">
+<img align="right" src="https://community.gamedev.tv/uploads/db2322/original/3X/a/6/a6b2be843042629e6713be29f0f6312f1a9fb311.gif" width="300px">
 
 - 🌱 &nbsp; I’m currently working with Node and React; 
 - 📝 &nbsp; Checkout my [resume](https://drive.google.com/file/d/1Az9qrrr-Re6NTrQNKd_HRFiqioWxBClw/view) and my [website](nfvelten.vercel.app)
