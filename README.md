@@ -1,12 +1,13 @@
 # Hi there 👋
 
-I am Nicholas Velten, an experienced TypeScript software developer with expertise developing, maintaining, and documenting full-stack applications.
-
-I am involved in numerous stages of development, from the architecture and design of new systems through the provisioning of visible and highly-available cloud infrastructure.
-
-Always valuing excellent programming principles such as TDD, Clean and Hex Arch, DDD, and using agile approaches such as SCRUM and Kanban for better management and increased productivity
+I'm a TypeScript software engineer with a background in developing, deploying, testing, and documenting full-stack apps. I use excellent programming concepts like TDD, Clean and Hex Arch, and DDD, as well as agile management techniques like SCRUM and Kanban, for increased productivity.
 
 i use arch btw
+
+<img align="right" src="https://community.gamedev.tv/uploads/db2322/original/3X/a/6/a6b2be843042629e6713be29f0f6312f1a9fb311.gif">
+
+- 🌱 &nbsp; I’m currently working with Node and React; 
+- 📝 &nbsp; Checkout my [resume](https://drive.google.com/file/d/1Az9qrrr-Re6NTrQNKd_HRFiqioWxBClw/view) and my [website](nfvelten.vercel.app)
 
 <center>
   <table>
@@ -16,5 +17,3 @@ i use arch btw
     </tr>   
   </table>
 </center>
-  
-<img align="right" src="https://community.gamedev.tv/uploads/db2322/original/3X/a/6/a6b2be843042629e6713be29f0f6312f1a9fb311.gif">
