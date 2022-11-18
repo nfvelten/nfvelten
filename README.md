@@ -7,7 +7,7 @@ I'm a TypeScript software engineer with a background in developing, deploying, t
 i use arch btw
 
 - 🌱 &nbsp; I’m currently working with Node and React; 
-- 📝 &nbsp; Checkout my [resume](https://drive.google.com/file/d/1Az9qrrr-Re6NTrQNKd_HRFiqioWxBClw/view) and my [website](https://nfvelten.vercel.app)
+- 📝 &nbsp; Checkout my [resume](https://drive.google.com/file/d/1Az9qrrr-Re6NTrQNKd_HRFiqioWxBClw/view) and my [website](https://nfvelten-portfolio.vercel.app)
 
 ## 🧰 Languages and Tools
 
