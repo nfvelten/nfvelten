@@ -32,7 +32,7 @@ i use arch btw
     <table>
 </center>
 
-center>
+<center>
     <table>
       <tr>
         <td>[![@oxyli6z's Holopin board](https://holopin.me/oxyli6z)](https://holopin.io/@oxyli6z)</td>
