@@ -9,7 +9,7 @@ i use arch btw
 - 🌱 &nbsp; I’m currently working with Node and React; 
 - 📝 &nbsp; Checkout my [resume](https://drive.google.com/file/d/1Az9qrrr-Re6NTrQNKd_HRFiqioWxBClw/view) and my [website](nfvelten.vercel.app)
 
-### 🧰 Languages and Tools
+## 🧰 Languages and Tools
 
 <img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
 <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
@@ -22,7 +22,7 @@ i use arch btw
 <img align="left" alt="Bash" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
 <br />
 
-### 📊 Github Stats
+## 📊 Github Stats
 <center>
     <table>
       <tr>
@@ -31,5 +31,7 @@ i use arch btw
       </tr>   
     <table>
 </center>
-
+        
+## 🥇 Badges
+        
 [![@oxyli6z's Holopin board](https://holopin.me/oxyli6z)](https://holopin.io/@oxyli6z)
