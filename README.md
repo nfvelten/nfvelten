@@ -8,6 +8,7 @@ i use arch btw
 
 - 🌱 &nbsp; I’m currently working with Node and React; 
 - 📝 &nbsp; Checkout my [resume](https://nfvelten.github.io/resume/) and my [portfolio](https://nfvelten-portfolio.vercel.app)
+[![status](https://badge.stateful.com/nfvelten/status.svg)](Status for @nfvelten)[![status](https://badge.stateful.com/nfvelten/dnd.svg)](DnD for @nfvelten)
 
 ## 🧰 Languages and Tools
 
