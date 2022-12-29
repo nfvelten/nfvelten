@@ -46,6 +46,16 @@ i use arch btw
 
 ## 📊 Github Stats
 
+<center>
+    <table>
+      <tr>
+        <td><img height="180em" src="https://github-readme-stats.vercel.app/api?username=nfvelten&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/></td>
+        <td><img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nfvelten&layout=compact&langs_count=8&theme=dracula&count_private=false"/></td>
+        <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=nfvelten&layout=compact&langs_count=8&theme=dracula&count_private=false" /></td>
+      </tr>   
+    <table>
+</center>
+
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nfvelten&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nfvelten&layout=compact&langs_count=8&theme=dracula&count_private=false"/>
       
