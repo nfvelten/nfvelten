@@ -1,4 +1,5 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Nicholas Velten
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FAFAD2&size=35&center=true&vCenter=true&width=1000&lines=Hi,+my+name+is+Nicholas+Velten)](https://git.io/typing-svg)
+
 =======================================================================================================================================
 
 I'm a TypeScript software engineer with a background in developing, deploying, testing, and documenting full-stack apps. I use excellent programming concepts like TDD, Clean and Hex Arch, and DDD, as well as agile management techniques like SCRUM and Kanban for increased productivity.
@@ -51,7 +52,6 @@ i use arch btw
       <tr>
         <td><img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=nfvelten&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/></td>
         <td><img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=nfvelten&layout=compact&langs_count=8&theme=dracula&count_private=false"/></td>
-        <td><img src="https://github-readme-streak-stats.herokuapp.com/?user=nfvelten&layout=compact&langs_count=8&theme=dracula&count_private=false" /></td>
       </tr>   
     <table>
 </center>
