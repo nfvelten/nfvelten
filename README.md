@@ -5,7 +5,7 @@
 I'm a TypeScript software engineer with a background in developing, deploying, testing, and documenting full-stack apps. I use excellent programming concepts like TDD, Clean and Hex Arch, and DDD, as well as agile management techniques like SCRUM and Kanban for increased productivity.
 
 <img align="right" src="https://community.gamedev.tv/uploads/db2322/original/3X/a/6/a6b2be843042629e6713be29f0f6312f1a9fb311.gif" width="300px">
-
+<p align="right">[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&redirect=true)</p>
 i use arch btw
 
 - 🌍  I'm based in Brazil
