@@ -4,8 +4,6 @@ I'm a TypeScript software engineer with a background in developing, deploying, t
 
 <img align="right" src="https://community.gamedev.tv/uploads/db2322/original/3X/a/6/a6b2be843042629e6713be29f0f6312f1a9fb311.gif" width="300px">
 
-i use arch btw
-
 - 🌍  I'm based in Brazil
 - 🖥️  See my [portfolio](http://nfvelten-portfolio.vercel.app)
 - ✉️  You can contact me at [nicholasfvelten@gmail.com](mailto:nicholasfvelten@gmail.com)
