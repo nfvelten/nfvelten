@@ -17,7 +17,6 @@ I'm a TypeScript software engineer with a background in developing, deploying, t
 <p align="right">
 <a href="https://www.linkedin.com/in/nicholasveltenfullstack/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/velten_nicholas" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>
 </p>
-<a href="https://www.buymeacoffee.com/nfvelten"><img align="right" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
 
 ## 🧰 Skills
 
