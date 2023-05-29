@@ -15,7 +15,7 @@ I'm a TypeScript software engineer with a background in developing, deploying, t
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&redirect=true)
 
 <p align="right">
-<a href="https://www.linkedin.com/in/nicholasveltenfullstack/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/velten_nicholas" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>
+<a href="https://www.linkedin.com/in/nicholasveltenfullstack/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
 </p>
 
 ## 🧰 Skills
