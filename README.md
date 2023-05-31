@@ -40,7 +40,7 @@ I'm a TypeScript software engineer with a background in developing, deploying, t
     <table>
       <tr>
         <td><img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=nfvelten&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/></td>
-        <td><img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=nfvelten&layout=compact&langs_count=8&theme=dracula&count_private=false"/></td>
+        <td><img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=nfvelten&layout=compact&langs_count=8&theme=dracula&count_private=true"/></td>
       </tr>   
     <table>
 </center>
