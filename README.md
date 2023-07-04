@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Hi,+my+name+is+Nicholas)](https://git.io/typing-svg)
 
-I'm a TypeScript software engineer with a background in developing, deploying, testing, and documenting full-stack apps. I use excellent programming concepts like TDD, Clean and Hex Arch, and DDD, as well as agile management techniques like SCRUM and Kanban for increased productivity.
+I am a software developer passionate about creating innovative and scalable solutions that drive business success. Throughout my career, I have dedicated myself to full-stack development, using cutting-edge technologies such as Node.js, React, TypeScript, and Next.js.
 
 <img align="right" src="https://community.gamedev.tv/uploads/db2322/original/3X/a/6/a6b2be843042629e6713be29f0f6312f1a9fb311.gif" width="300px">
 
