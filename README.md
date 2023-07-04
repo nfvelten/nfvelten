@@ -1,4 +1,6 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=FAFAD2&size=35&center=true&vCenter=true&width=1000&lines=Hi,+my+name+is+Nicholas)](https://git.io/typing-svg)
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=35&center=true&vCenter=true&width=1000&lines=Hi,+my+name+is+Nicholas)](https://git.io/typing-svg)
 
 I'm a TypeScript software engineer with a background in developing, deploying, testing, and documenting full-stack apps. I use excellent programming concepts like TDD, Clean and Hex Arch, and DDD, as well as agile management techniques like SCRUM and Kanban for increased productivity.
 
@@ -13,10 +15,6 @@ I'm a TypeScript software engineer with a background in developing, deploying, t
 - ![status](https://badge.stateful.com/nfvelten/dnd.svg)
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&cover_image=true&theme=natemoo-re&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&redirect=true)
-
-<p align="right">
-<a href="https://www.linkedin.com/in/nicholasveltenfullstack/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" />
-</p>
 
 ## 🧰 Skills
 
@@ -48,3 +46,5 @@ I'm a TypeScript software engineer with a background in developing, deploying, t
 ## 🥇 Badges
         
 [![@oxyli6z's Holopin board](https://holopin.me/oxyli6z)](https://holopin.io/@oxyli6z)
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
