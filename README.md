@@ -4,7 +4,7 @@
 
 I am a software developer passionate about creating innovative and scalable solutions that drive business success. Throughout my career, I have dedicated myself to full-stack development, using cutting-edge technologies such as Node.js, React, TypeScript, and Next.js.
 
-<img align="right" src="https://community.gamedev.tv/uploads/db2322/original/3X/a/6/a6b2be843042629e6713be29f0f6312f1a9fb311.gif" width="300px">
+<a href="https://app.daily.dev/nicholasvelten"><img align="right" src="https://api.daily.dev/devcards/7a7b1d4d541e40cc91ee05ffc407d9a7.png?r=3kr" width="400" alt="Nicholas Velten's Dev Card"/></a>
 
 - 🌍  I'm based in Brazil
 - 🖥️  See my [portfolio](http://nfvelten-portfolio.vercel.app)
