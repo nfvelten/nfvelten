@@ -4,7 +4,7 @@
 
 I am a software developer passionate about creating innovative and scalable solutions that drive business success. Throughout my career, I have dedicated myself to full-stack development, using cutting-edge technologies such as Node.js, React, TypeScript, and Next.js.
 
-<img align="right" src="https://github.com/nfvelten/nfvelten/blob/main/devcard.svg" width="400" alt="Nicholas Velten's Dev Card"/>
+<a href="https://app.daily.dev/nicholasvelten"><img align="right" src="https://api.daily.dev/devcards/v2/wIDRwQH242zVqxq70PFat.png?r=dhi" width="356" alt="Nicholas Velten's Dev Card"/></a>
 
 - 🌍  I'm based in Brazil
 - 🖥️  See my [portfolio](http://nfvelten-portfolio.vercel.app)
