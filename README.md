@@ -6,6 +6,10 @@ I am a software developer passionate about creating innovative and scalable solu
 
 <a href="https://app.daily.dev/nicholasvelten"><img align="right" src="https://api.daily.dev/devcards/v2/wIDRwQH242zVqxq70PFat.png?r=dhi" width="356" alt="Nicholas Velten's Dev Card"/></a>
 
+<br><br/>
+
+<br><br/>
+
 - 🌍  I'm based in Brazil
 - 🖥️  See my [portfolio](http://nfvelten-portfolio.vercel.app)
 - ✉️  You can contact me at [nicholasfvelten@gmail.com](mailto:nicholasfvelten@gmail.com)
