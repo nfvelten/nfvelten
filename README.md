@@ -18,7 +18,7 @@ I am a software developer passionate about creating innovative and scalable solu
 - ![status](https://badge.stateful.com/nfvelten/status.svg)
 - ![status](https://badge.stateful.com/nfvelten/dnd.svg)
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&redirect=true)
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=12160258372&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&redirect=true)
 
 ## 🧰 Skills
 
