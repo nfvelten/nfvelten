@@ -4,7 +4,7 @@
 
 I am a software developer passionate about creating innovative and scalable solutions that drive business success. Throughout my career, I have dedicated myself to full-stack development, using cutting-edge technologies such as Node.js, React, TypeScript, and Next.js.
 
-<a href="https://app.daily.dev/nicholasvelten"><img align="right" src="https://api.daily.dev/devcards/v2/wIDRwQH242zVqxq70PFat.png?r=dhi" width="356" alt="Nicholas Velten's Dev Card"/></a>
+<!-- <a href="https://app.daily.dev/nicholasvelten"><img align="right" src="https://api.daily.dev/devcards/v2/wIDRwQH242zVqxq70PFat.png?r=dhi" width="356" alt="Nicholas Velten's Dev Card"/></a> -->
 
 <br><br/>
 
@@ -15,8 +15,6 @@ I am a software developer passionate about creating innovative and scalable solu
 - ✉️  You can contact me at [nicholasfvelten@gmail.com](mailto:nicholasfvelten@gmail.com)
 - 🧠  I'm learning all things JavaScript
 - ⚡  I love playing strategy games
-- ![status](https://badge.stateful.com/nfvelten/status.svg)
-- ![status](https://badge.stateful.com/nfvelten/dnd.svg)
 
 [![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=12160258372&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&bar_color=53b14f&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=12160258372&redirect=true)
 
