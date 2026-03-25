@@ -2,14 +2,24 @@
 
 # Nicholas Velten
 
-Full-stack engineer focused on scalable systems and well-structured backends.
-Currently at **Alloha Fibra** — the largest independent ISP in Brazil.
+Full-stack engineer with 4+ years building production systems at scale.
+Currently at **Alloha Fibra** — Brazil's largest independent ISP — working on performance-critical APIs, voice infrastructure, and system migrations.
 
-Four years building across telecoms, fintech, and product startups.
+Delivered up to **60% API response time improvements** through query optimization and caching. Shipped systems serving millions of customers.
 
 ---
 
-**Stack** — Java · TypeScript · Vue.js · Node.js · PostgreSQL · Redis · Docker · Kubernetes · AWS · GCP
+**Languages** — TypeScript · JavaScript · Python · Java · Kotlin · Rust
+
+**Frontend** — Vue.js · React · Next.js · Nuxt.js · React Native
+
+**Backend** — Node.js · NestJS · Express · Flask · PostgreSQL · Redis
+
+**Infrastructure** — Docker · Kubernetes · Terraform · AWS · GCP · OCI
+
+**Observability** — New Relic · Grafana · Sentry · OpenTelemetry
+
+**Architecture** — DDD · Hexagonal · Event-Driven · SOLID
 
 ---
 
@@ -18,14 +28,14 @@ Four years building across telecoms, fintech, and product startups.
 **[mateCreations](https://nicholas-velten.xyz/matecreations)**
 Cross-app theme ecosystem for Obsidian, Neovim, VS Code and Zen Browser — earthy palette, automatic light/dark switching via systemd and GitHub Actions release pipeline.
 
+**AI Workflow System**
+Personal automation pipeline built on Claude API: voice recording → Whisper transcription → structured notes; YouTube and article ingestion with AI summarization; git hooks generating contextual project notes in background. *Bash · Python · Claude API · faster-whisper*
+
 **Codex**
-Cross-platform book discovery app (Desktop / Android / iOS) with extensible source architecture and no ads. *Kotlin · Compose Multiplatform · Ktor*
+Cross-platform book discovery app (Desktop / Android / iOS) with extension-based source architecture. No ads, no tracking. *Kotlin · Compose Multiplatform · Ktor*
 
 **oracle-k8s**
 Kubernetes cluster on Oracle Cloud Free Tier, fully provisioned with Terraform — compute, networking and load balancer as code. *Terraform · Kubernetes · OCI*
-
-**AI Workflow System**
-Personal automation pipeline: voice recording → Whisper transcription → structured notes; YouTube and article ingestion with AI summarization. *Bash · Python · Claude API*
 
 ---
 
