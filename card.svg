@@ -1,0 +1,76 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="card-clip">
+      <rect width="900" height="280" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card-clip)">
+    <!-- Base background -->
+    <rect width="900" height="280" fill="#1c1e13"/>
+
+    <!-- Right panel — slightly darker -->
+    <rect x="596" y="0" width="304" height="280" fill="#171a0f"/>
+
+    <!-- Top accent bar -->
+    <rect width="900" height="3" fill="#8fb339"/>
+
+    <!-- Left vertical accent bar -->
+    <rect x="48" y="52" width="3" height="160" fill="#8fb339" rx="1.5"/>
+
+    <!-- Panel divider -->
+    <line x1="596" y1="0" x2="596" y2="280" stroke="#252a1c" stroke-width="1"/>
+
+    <!-- ── LEFT CONTENT ── -->
+
+    <!-- Name -->
+    <text x="72" y="102"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+      font-size="38" font-weight="700" letter-spacing="-0.5" fill="#dce0d9">nicholas velten</text>
+
+    <!-- Title -->
+    <text x="73" y="130"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+      font-size="12" font-weight="400" letter-spacing="3" fill="#8fb339">SENIOR SOFTWARE ENGINEER</text>
+
+    <!-- Separator -->
+    <line x1="72" y1="152" x2="525" y2="152" stroke="#2d3325" stroke-width="1"/>
+
+    <!-- Primary stack -->
+    <text x="72" y="182"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+      font-size="16" font-weight="500" fill="#dce0d9">Java  ·  Rust  ·  Python</text>
+
+    <!-- Secondary stack -->
+    <text x="72" y="210"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+      font-size="13" fill="#4f5b4a">Spring Boot  ·  Docker  ·  Kubernetes  ·  PostgreSQL  ·  Redis</text>
+
+    <!-- ── RIGHT CONTENT — Links ── -->
+
+    <!-- Website -->
+    <text x="632" y="98"
+      font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+      font-size="10" letter-spacing="2" fill="#4f5b4a">WEB</text>
+    <text x="632" y="118"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+      font-size="14" fill="#dce0d9">nicholas-velten.xyz</text>
+
+    <!-- GitHub -->
+    <text x="632" y="157"
+      font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+      font-size="10" letter-spacing="2" fill="#4f5b4a">GITHUB</text>
+    <text x="632" y="177"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+      font-size="14" fill="#dce0d9">github.com/nfvelten</text>
+
+    <!-- LinkedIn -->
+    <text x="632" y="216"
+      font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace"
+      font-size="10" letter-spacing="2" fill="#4f5b4a">LINKEDIN</text>
+    <text x="632" y="236"
+      font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
+      font-size="14" fill="#dce0d9">in/nicholasvelten</text>
+
+  </g>
+</svg>
