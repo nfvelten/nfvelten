@@ -2,42 +2,40 @@
 
 # Nicholas Velten
 
-Full-stack engineer with 4+ years building production systems at scale.
-Currently at **Alloha Fibra** — Brazil's largest independent ISP — working on performance-critical APIs, voice infrastructure, and system migrations.
+Senior Software Engineer with 4+ years building production systems at scale.
+Currently at **Alloha Fibra** — Brazil's largest independent ISP — owning platform-level infrastructure across a distributed Java/Spring Boot microservices stack serving millions of customers.
 
-Delivered up to **60% API response time improvements** through query optimization and caching. Shipped systems serving millions of customers.
+Proactively identified and remediated a critical LGPD violation across 3 microservices (AES-256-GCM, 554k records). Led zero-downtime Java library migration across 8+ repos. Authored Java 8→17 + Spring Boot 1.5→3.x migration assessment for 301 files.
 
 ---
 
-**Languages** — TypeScript · JavaScript · Python · Java · Kotlin · Rust
+**Languages** — Java · Rust · TypeScript · Python · Kotlin · JavaScript
 
-**Frontend** — Vue.js · React · Next.js · Nuxt.js · React Native
+**Backend** — Spring Boot · Node.js · NestJS · Flask · PostgreSQL · Redis
 
-**Backend** — Node.js · NestJS · Express · Flask · PostgreSQL · Redis
+**Frontend** — Vue.js · React · Next.js · Nuxt.js
 
-**Infrastructure** — Docker · Kubernetes · Terraform · AWS · GCP · OCI
+**Infrastructure** — Docker · Kubernetes · Terraform · AWS · GCP · Tailscale
 
-**Observability** — New Relic · Grafana · Sentry · OpenTelemetry
+**AI & Security** — MCP · AI Agents · AES-256-GCM · Keycloak · OAuth2
 
-**Architecture** — DDD · Hexagonal · Event-Driven · SOLID
+**Architecture** — DDD · Clean Architecture · Event-Driven · SOLID
 
 ---
 
 ## Projects
 
-**[mateCreations](https://nicholas-velten.xyz/matecreations)**
-Cross-app theme ecosystem for Obsidian, Neovim, VS Code and Zen Browser — earthy palette, automatic light/dark switching via systemd and GitHub Actions release pipeline.
+**[Arbitus](https://github.com/arbitusgateway/arbitus)**
+Security proxy for AI agents and MCP servers — per-agent auth (API key, JWT, mTLS), tool allowlists/denylists, rate limiting, human-in-the-loop approvals, and audit logging. Sub-millisecond overhead. Open source (MIT). *Rust · MCP*
 
-**AI Workflow System**
-Personal automation pipeline built on Claude API: voice recording → Whisper transcription → structured notes; YouTube and article ingestion with AI summarization; git hooks generating contextual project notes in background. *Bash · Python · Claude API · faster-whisper*
+**[Agent Code Buddy](https://github.com/harbefas/agent-code-buddy)**
+Human-in-the-loop approval system for AI agent tool calls. Claude Code's PreToolUse hook intercepts sensitive operations → sends to phone via Android broadcast → native app presents Allow / Trust / Deny → decision returns to agent in real time. *Java · Android · Python*
 
-**Codex**
-Cross-platform book discovery app (Desktop / Android / iOS) with extension-based source architecture. No ads, no tracking. *Kotlin · Compose Multiplatform · Ktor*
+**[Paperboy](https://github.com/harbefas/paperboy)**
+Minimal, keyboard-first, local-first RSS reader and podcast player as your browser's new tab. No accounts, no cloud, no tracking. Shipped on Firefox Add-ons. *JavaScript · Browser Extension*
 
-**oracle-k8s**
-Kubernetes cluster on Oracle Cloud Free Tier, fully provisioned with Terraform — compute, networking and load balancer as code. *Terraform · Kubernetes · OCI*
-
-Notes on software, tools and the work of building things — [nicholas-velten.xyz](https://nicholas-velten.xyz)
+**[Amphora Deck](https://github.com/nfvelten/amphora-setup)**
+Personal system treating an Android phone (LineageOS/Termux) as an operational sidecar for AI agents and self-hosted infra. k3s cluster (Contabo), Tailscale mesh, self-hosted GitHub runner, full CI/CD. *Kubernetes · Tailscale · Android · Bash*
 
 ---
 
@@ -49,6 +47,6 @@ Notes on software, tools and the work of building things — [nicholas-velten.xy
 
 ---
 
-[nicholas-velten.xyz](https://nicholas-velten.xyz) · [LinkedIn](https://linkedin.com/in/nicholasveltenfullstack) · nikvelten@gmail.com
+[nicholas-velten.xyz](https://nicholas-velten.xyz) · [LinkedIn](https://linkedin.com/in/nicholasvelten) · nikvelten@gmail.com
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=1c1e13&height=4"/>
