@@ -43,13 +43,8 @@ def search(*flags):
 def collect():
     merged = search("--merged")
     review = search("--state", "open") - merged
-    closed = search("--state", "closed") - merged - review
-    entries = (
-        [(r, "merged") for r in merged]
-        + [(r, "in review") for r in review]
-        + [(r, "closed") for r in closed]
-    )
-    order = {"merged": 0, "in review": 1, "closed": 2}
+    entries = [(r, "merged") for r in merged] + [(r, "in review") for r in review]
+    order = {"merged": 0, "in review": 1}
     return sorted(entries, key=lambda e: (order[e[1]], e[0].lower()))
 
 
@@ -78,7 +73,7 @@ def esc(text):
 def render(entries):
     rows = -(-len(entries) // COLS)
     height = PAD_Y + rows * CELL_H + 24
-    colors = {"merged": "var(--ac)", "in review": "var(--yl)", "closed": "var(--tx3)"}
+    colors = {"merged": "var(--ac)", "in review": "var(--yl)"}
 
     defs, cells = [], []
     for i, (repo, status) in enumerate(entries):
@@ -102,10 +97,10 @@ def render(entries):
 <style>
 {font_face()}
 :root {{ --bg: #282d1c; --ui: #4f5b4a; --ui3: #7a8573; --tx: #dce0d9;
-  --tx3: #7a8573; --ac: #7eb2d1; --yl: #a67c52; }}
+  --ac: #7eb2d1; --yl: #a67c52; }}
 @media (prefers-color-scheme: light) {{
   :root {{ --bg: #fbf1c7; --ui: #ddd2a0; --ui3: #928374; --tx: #3c3836;
-    --tx3: #7c6f64; --ac: #076678; --yl: #b57614; }}
+    --ac: #076678; --yl: #b57614; }}
 }}
 </style>
 {chr(10).join(defs)}

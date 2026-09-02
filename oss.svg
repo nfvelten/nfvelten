@@ -8,10 +8,10 @@
   font-weight: 400 800;
 }
 :root { --bg: #282d1c; --ui: #4f5b4a; --ui3: #7a8573; --tx: #dce0d9;
-  --tx3: #7a8573; --ac: #7eb2d1; --yl: #a67c52; }
+  --ac: #7eb2d1; --yl: #a67c52; }
 @media (prefers-color-scheme: light) {
   :root { --bg: #fbf1c7; --ui: #ddd2a0; --ui3: #928374; --tx: #3c3836;
-    --tx3: #7c6f64; --ac: #076678; --yl: #b57614; }
+    --ac: #076678; --yl: #b57614; }
 }
 </style>
 <clipPath id="c0"><circle cx="69" cy="109" r="13"/></clipPath>
@@ -32,7 +32,6 @@
 <clipPath id="c15"><circle cx="660" cy="265" r="13"/></clipPath>
 <clipPath id="c16"><circle cx="69" cy="317" r="13"/></clipPath>
 <clipPath id="c17"><circle cx="266" cy="317" r="13"/></clipPath>
-<clipPath id="c18"><circle cx="463" cy="317" r="13"/></clipPath>
 </defs>
 
 <rect width="900" height="380" fill="var(--bg)"/>
@@ -151,10 +150,4 @@
   font-size="15" fill="var(--tx)">watchexec</text>
 <text x="289" y="330" font-family="'Fira Code', 'Courier New', monospace"
   font-size="9" letter-spacing="1.5" fill="var(--yl)">IN REVIEW</text>
-<image x="450" y="304" width="26" height="26"
-  clip-path="url(#c18)" href="data:image/png;base64,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"/>
-<text x="486" y="316" font-family="'EBG', Georgia, serif"
-  font-size="15" fill="var(--tx)">hyprpicker</text>
-<text x="486" y="330" font-family="'Fira Code', 'Courier New', monospace"
-  font-size="9" letter-spacing="1.5" fill="var(--tx3)">CLOSED</text>
 </svg>
