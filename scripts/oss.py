@@ -34,8 +34,28 @@ def label(repo):
     return repo if name.lower() in GENERIC else name
 
 
+def is_org(owner):
+    out = subprocess.run(
+        ["gh", "api", f"users/{owner}", "--jq", ".type"],
+        capture_output=True, text=True, check=True,
+    ).stdout.strip()
+    return out == "Organization"
+
+
 def row(names):
-    return " · ".join(f"[{label(r)}](https://github.com/{r})" for r in names)
+    parts = []
+    # Orgs carry a logo, so they lead the row and the bare names follow.
+    for repo in sorted(names, key=lambda r: (not is_org(r.split("/")[0]), r.lower())):
+        owner = repo.split("/")[0]
+        text = label(repo)
+        # Personal accounts use a photo as their avatar: only orgs have a logo worth showing.
+        if is_org(owner):
+            text = (
+                f'<img src="https://github.com/{owner}.png?size=40" '
+                f'width="20" height="20" align="top"/> {text}'
+            )
+        parts.append(f"[{text}](https://github.com/{repo})")
+    return " · ".join(parts)
 
 
 def main():
