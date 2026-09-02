@@ -10,7 +10,7 @@ START = "<!-- OSS:START -->"
 END = "<!-- OSS:END -->"
 
 # Repos I own or co-own: covered by the Projects section instead.
-MINE = {"nfvelten", "mateCreations", "arbitusgateway", "harbefas", "corosolto"}
+MINE = {"nfvelten", "mateCreations", "arbitusgateway", "harbefas"}
 SKIP_REPOS = {"bh-rat/awesome-mcp-enterprise", "Puliczek/awesome-mcp-security"}
 
 
@@ -25,12 +25,17 @@ def repos(*flags):
     return sorted((r for r in names if r.split("/")[0] not in MINE), key=str.lower)
 
 
+# Repo names that say nothing on their own: show them as owner/name.
+GENERIC = {"client", "server", "core", "app", "cli", "web", "api", "docs", "site"}
+
+
+def label(repo):
+    name = repo.split("/")[1]
+    return repo if name.lower() in GENERIC else name
+
+
 def row(names):
-    return " ".join(
-        f'[<img src="https://github.com/{r.split("/")[0]}.png?size=32" width="20" height="20" align="top"/> '
-        f'{r.split("/")[1]}](https://github.com/{r})'
-        for r in names
-    )
+    return " · ".join(f"[{label(r)}](https://github.com/{r})" for r in names)
 
 
 def main():
