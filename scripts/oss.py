@@ -21,9 +21,6 @@ END = "<!-- OSS:END -->"
 MINE = {"nfvelten", "mateCreations", "arbitusgateway", "harbefas"}
 # Link-only entries in awesome-lists say nothing about the code.
 SKIP_REPOS = {"bh-rat/awesome-mcp-enterprise", "Puliczek/awesome-mcp-security"}
-# Repo names that carry no meaning alone.
-GENERIC = {"client", "server", "core", "app", "cli", "web", "api", "docs", "site"}
-
 COLS = 4
 CELL_W, CELL_H = 197, 52
 PAD_X, PAD_Y = 56, 96
@@ -57,11 +54,6 @@ def avatar(owner):
     return f"data:{mime};base64,{base64.b64encode(raw).decode()}"
 
 
-def label(repo):
-    name = repo.split("/")[1]
-    return name if name.lower() not in GENERIC else repo
-
-
 def font_face():
     return re.search(r"@font-face \{.*?\}", open(CARD).read(), re.S).group(0)
 
@@ -87,7 +79,8 @@ def render(entries):
         cells.append(f"""<image x="{x}" y="{y}" width="{AVATAR}" height="{AVATAR}"
   clip-path="url(#c{i})" href="{avatar(owner)}"/>
 <text x="{x + AVATAR + 10}" y="{y + 12}" font-family="'EBG', Georgia, serif"
-  font-size="15" fill="var(--tx)">{esc(label(repo))}</text>
+  font-size="14"><tspan fill="var(--ui3)">{esc(owner)}/</tspan><tspan
+  fill="var(--tx)">{esc(repo.split("/")[1])}</tspan></text>
 <text x="{x + AVATAR + 10}" y="{y + 26}" font-family="'Fira Code', 'Courier New', monospace"
   font-size="9" letter-spacing="1.5" fill="{colors[status]}">{status.upper()}</text>""")
 
