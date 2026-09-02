@@ -6,6 +6,7 @@ the SVG through camo, where external references never load.
 """
 
 import base64
+import hashlib
 import json
 import re
 import subprocess
@@ -112,11 +113,18 @@ def render(entries):
 """
 
 
+RAW = "https://raw.githubusercontent.com/nfvelten/nfvelten/main/" + OUT
+
+
 def main():
-    open(OUT, "w").write(render(collect()))
+    svg = render(collect())
+    open(OUT, "w").write(svg)
+    # GitHub proxies images through camo and caches them by URL, so a fresh card
+    # only shows up if the URL changes with it.
+    digest = hashlib.sha256(svg.encode()).hexdigest()[:8]
     block = (
-        f'{START}\n\n## Open source\n\n<img src="{OUT}" alt="Upstream contributions" '
-        f'width="900"/>\n\n{END}'
+        f'{START}\n\n## Open source\n\n<img src="{RAW}?v={digest}" '
+        f'alt="Upstream contributions" width="900"/>\n\n{END}'
     )
     readme = open(README).read()
     updated = re.sub(
