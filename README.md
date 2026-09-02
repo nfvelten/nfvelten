@@ -61,35 +61,13 @@ Useful prompts include: *Which production problems has Nicholas solved? What evi
 
 ## Open source
 
-Merged upstream:
+Merged:
 
-| Change | Project |
-|--------|---------|
-| [Allow hiding the key-binding hint bar](https://github.com/bjarneo/cliamp/pull/404) | <img src="https://github.com/bjarneo.png?size=20" width="20" height="20" align="top"/> [bjarneo/cliamp](https://github.com/bjarneo/cliamp) |
-| [Trim a credit list in search_author to the first name](https://github.com/calibrain/shelfmark/pull/1290) | <img src="https://github.com/calibrain.png?size=20" width="20" height="20" align="top"/> [calibrain/shelfmark](https://github.com/calibrain/shelfmark) |
-| [Use CURLOPT_PROTOCOLS_STR where available](https://github.com/eafer/rdrview/pull/50) | <img src="https://github.com/eafer.png?size=20" width="20" height="20" align="top"/> [eafer/rdrview](https://github.com/eafer/rdrview) |
-| [Complete attached long flag values](https://github.com/jdx/usage/pull/1349) | <img src="https://github.com/jdx.png?size=20" width="20" height="20" align="top"/> [jdx/usage](https://github.com/jdx/usage) |
-| [Return a JSON body when /torrents rejects a request](https://github.com/YouROK/TorrServer/pull/848) | <img src="https://github.com/YouROK.png?size=20" width="20" height="20" align="top"/> [YouROK/TorrServer](https://github.com/YouROK/TorrServer) |
+[<img src="https://github.com/bjarneo.png?size=32" width="20" height="20" align="top"/> cliamp](https://github.com/bjarneo/cliamp) [<img src="https://github.com/calibrain.png?size=32" width="20" height="20" align="top"/> shelfmark](https://github.com/calibrain/shelfmark) [<img src="https://github.com/eafer.png?size=32" width="20" height="20" align="top"/> rdrview](https://github.com/eafer/rdrview) [<img src="https://github.com/jdx.png?size=32" width="20" height="20" align="top"/> usage](https://github.com/jdx/usage) [<img src="https://github.com/YouROK.png?size=32" width="20" height="20" align="top"/> TorrServer](https://github.com/YouROK/TorrServer)
 
 In review:
 
-| Change | Project |
-|--------|---------|
-| [Fix Comment mode help alignment](https://github.com/agavra/tuicr/pull/667) | <img src="https://github.com/agavra.png?size=20" width="20" height="20" align="top"/> [agavra/tuicr](https://github.com/agavra/tuicr) |
-| [Show delete shortcut in help](https://github.com/atuinsh/atuin/pull/4039) | <img src="https://github.com/atuinsh.png?size=20" width="20" height="20" align="top"/> [atuin](https://github.com/atuinsh/atuin) |
-| [Substitui a action local fantasma do issues-bot pelos passos reais](https://github.com/corosolto/client/pull/490) | <img src="https://github.com/corosolto.png?size=20" width="20" height="20" align="top"/> [corosolto/client](https://github.com/corosolto/client) |
-| [Reset reader when changing books](https://github.com/gotson/komga/pull/2416) | <img src="https://github.com/gotson.png?size=20" width="20" height="20" align="top"/> [gotson/komga](https://github.com/gotson/komga) |
-| [Don't hang mpv when no session bus is available](https://github.com/hoyon/mpv-mpris/pull/145) | <img src="https://github.com/hoyon.png?size=20" width="20" height="20" align="top"/> [hoyon/mpv-mpris](https://github.com/hoyon/mpv-mpris) |
-| [Refresh playlist after rating changes](https://github.com/navidrome/navidrome/pull/6066) | <img src="https://github.com/navidrome.png?size=20" width="20" height="20" align="top"/> [navidrome](https://github.com/navidrome/navidrome) |
-| [Point the PKGBUILD at the current repo and release](https://github.com/omacom/ttfx/pull/23) | <img src="https://github.com/omacom.png?size=20" width="20" height="20" align="top"/> [omacom/ttfx](https://github.com/omacom/ttfx) |
-| [Add a setting to hide the lyrics button](https://github.com/stappmus/Omarchy-Spotify/pull/46) | <img src="https://github.com/stappmus.png?size=20" width="20" height="20" align="top"/> [stappmus/Omarchy-Spotify](https://github.com/stappmus/Omarchy-Spotify) |
-| [Restore the bindings.lua instructions for Super+Shift+M](https://github.com/stappmus/Omarchy-Spotify/pull/44) | <img src="https://github.com/stappmus.png?size=20" width="20" height="20" align="top"/> [stappmus/Omarchy-Spotify](https://github.com/stappmus/Omarchy-Spotify) |
-| [Emit a real edit when inserting past the last line](https://github.com/stevearc/conform.nvim/pull/898) | <img src="https://github.com/stevearc.png?size=20" width="20" height="20" align="top"/> [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim) |
-| [Scope returned cookies to the requested page](https://github.com/ThePhaseless/Byparr/pull/409) | <img src="https://github.com/ThePhaseless.png?size=20" width="20" height="20" align="top"/> [ThePhaseless/Byparr](https://github.com/ThePhaseless/Byparr) |
-| [Collapse is_martian_addr() into is_valid_for_peers()](https://github.com/transmission/transmission/pull/9096) | <img src="https://github.com/transmission.png?size=20" width="20" height="20" align="top"/> [transmission](https://github.com/transmission/transmission) |
-| [Support x.pe peer addresses in magnet links](https://github.com/transmission/transmission/pull/9095) | <img src="https://github.com/transmission.png?size=20" width="20" height="20" align="top"/> [transmission](https://github.com/transmission/transmission) |
-| [\[listview\] restore scrolling to the top on a second G/End](https://github.com/tstack/lnav/pull/1746) | <img src="https://github.com/tstack.png?size=20" width="20" height="20" align="top"/> [tstack/lnav](https://github.com/tstack/lnav) |
-| [Add --initial-events to emit events for existing paths](https://github.com/watchexec/watchexec/pull/1104) | <img src="https://github.com/watchexec.png?size=20" width="20" height="20" align="top"/> [watchexec](https://github.com/watchexec/watchexec) |
+[<img src="https://github.com/agavra.png?size=32" width="20" height="20" align="top"/> tuicr](https://github.com/agavra/tuicr) [<img src="https://github.com/atuinsh.png?size=32" width="20" height="20" align="top"/> atuin](https://github.com/atuinsh/atuin) [<img src="https://github.com/gotson.png?size=32" width="20" height="20" align="top"/> komga](https://github.com/gotson/komga) [<img src="https://github.com/hoyon.png?size=32" width="20" height="20" align="top"/> mpv-mpris](https://github.com/hoyon/mpv-mpris) [<img src="https://github.com/navidrome.png?size=32" width="20" height="20" align="top"/> navidrome](https://github.com/navidrome/navidrome) [<img src="https://github.com/omacom.png?size=32" width="20" height="20" align="top"/> ttfx](https://github.com/omacom/ttfx) [<img src="https://github.com/stappmus.png?size=32" width="20" height="20" align="top"/> Omarchy-Spotify](https://github.com/stappmus/Omarchy-Spotify) [<img src="https://github.com/stevearc.png?size=32" width="20" height="20" align="top"/> conform.nvim](https://github.com/stevearc/conform.nvim) [<img src="https://github.com/ThePhaseless.png?size=32" width="20" height="20" align="top"/> Byparr](https://github.com/ThePhaseless/Byparr) [<img src="https://github.com/transmission.png?size=32" width="20" height="20" align="top"/> transmission](https://github.com/transmission/transmission) [<img src="https://github.com/tstack.png?size=32" width="20" height="20" align="top"/> lnav](https://github.com/tstack/lnav) [<img src="https://github.com/watchexec.png?size=32" width="20" height="20" align="top"/> watchexec](https://github.com/watchexec/watchexec)
 
 <!-- OSS:END -->
 
