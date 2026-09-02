@@ -6,14 +6,11 @@
 
 <br/>
 
-## Projects
+<div align="center">
 
-| Project | Stack |
-|---------|-------|
-| [**Arbitus**](https://github.com/arbitusgateway/arbitus) — Security proxy for MCP servers. Per-agent auth, tool allowlists, audit logging. | `Rust` |
-| [**Agent Code Buddy**](https://github.com/harbefas/agent-code-buddy) — Human-in-the-loop approvals for AI agent tool calls via Android. | `Java · Android · Python` |
-| [**Paperboy**](https://github.com/harbefas/paperboy) — Keyboard-first local-first RSS reader and podcast player for new tab. | `JavaScript` |
-| **agent-memory** *(Rust rewrite in progress)* — Semantic memory layer for AI agents. | `Rust` |
+[Arbitus](https://github.com/arbitusgateway/arbitus) · [Agent Code Buddy](https://github.com/harbefas/agent-code-buddy) · [Paperboy](https://github.com/harbefas/paperboy)
+
+</div>
 
 ## Agent interface
 
@@ -61,7 +58,7 @@ Useful prompts include: *Which production problems has Nicholas solved? What evi
 
 ## Open source
 
-<img src="https://raw.githubusercontent.com/nfvelten/nfvelten/main/oss.svg?v=e4ab1402" alt="Upstream contributions" width="900"/>
+<img src="https://raw.githubusercontent.com/nfvelten/nfvelten/main/oss.svg?v=77b024a7" alt="Open source" width="900"/>
 
 <!-- OSS:END -->
 
