@@ -61,13 +61,7 @@ Useful prompts include: *Which production problems has Nicholas solved? What evi
 
 ## Open source
 
-Merged:
-
-[cliamp](https://github.com/bjarneo/cliamp) · [shelfmark](https://github.com/calibrain/shelfmark) · [rdrview](https://github.com/eafer/rdrview) · [usage](https://github.com/jdx/usage) · [TorrServer](https://github.com/YouROK/TorrServer)
-
-In review:
-
-[<img src="https://github.com/atuinsh.png?size=40" width="20" height="20" align="top"/> atuin](https://github.com/atuinsh/atuin) · [<img src="https://github.com/corosolto.png?size=40" width="20" height="20" align="top"/> corosolto/client](https://github.com/corosolto/client) · [<img src="https://github.com/navidrome.png?size=40" width="20" height="20" align="top"/> navidrome](https://github.com/navidrome/navidrome) · [<img src="https://github.com/omacom.png?size=40" width="20" height="20" align="top"/> ttfx](https://github.com/omacom/ttfx) · [<img src="https://github.com/transmission.png?size=40" width="20" height="20" align="top"/> transmission](https://github.com/transmission/transmission) · [<img src="https://github.com/watchexec.png?size=40" width="20" height="20" align="top"/> watchexec](https://github.com/watchexec/watchexec) · [tuicr](https://github.com/agavra/tuicr) · [komga](https://github.com/gotson/komga) · [mpv-mpris](https://github.com/hoyon/mpv-mpris) · [Omarchy-Spotify](https://github.com/stappmus/Omarchy-Spotify) · [conform.nvim](https://github.com/stevearc/conform.nvim) · [Byparr](https://github.com/ThePhaseless/Byparr) · [lnav](https://github.com/tstack/lnav)
+<img src="oss.svg" alt="Upstream contributions" width="900"/>
 
 <!-- OSS:END -->
 

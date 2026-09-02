@@ -19,9 +19,10 @@ jobs:
         run: python3 scripts/oss.py
       - name: Commit
         run: |
-          if [ -n "$(git status --porcelain README.md)" ]; then
+          if [ -n "$(git status --porcelain README.md oss.svg)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "docs: refresh open source section" README.md
+            git add README.md oss.svg
+            git commit -m "docs: refresh open source section"
             git push
           fi
