@@ -18,6 +18,10 @@ SKIP_REPOS = {"bh-rat/awesome-mcp-enterprise", "Puliczek/awesome-mcp-security"}
 # Merged elsewhere after the maintainer deleted my PR (search API only finds PRs
 # still attributed to me): corosolto/client#490, folded into #500 by the maintainer.
 MANUAL_MERGED = {"corosolto/client"}
+# Cherry-picked by the maintainer, not opened by me (search API only finds PRs
+# authored by me): retransmission/retransmission#295, opened by ckerr from my
+# transmission/transmission#9096.
+MANUAL_REVIEW = {"retransmission/retransmission"}
 
 COLS = 4
 CELL_W, CELL_H = 197, 52
@@ -37,7 +41,7 @@ def search(*flags):
 
 def collect():
     merged = search("--merged") | MANUAL_MERGED
-    review = search("--state", "open") - merged
+    review = (search("--state", "open") | MANUAL_REVIEW) - merged
     entries = [(r, "merged") for r in merged] + [(r, "in review") for r in review]
     order = {"merged": 0, "in review": 1}
     return sorted(entries, key=lambda e: (order[e[1]], e[0].lower()))
