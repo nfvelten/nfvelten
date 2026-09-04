@@ -17,11 +17,11 @@ MINE = {"nfvelten", "mateCreations", "arbitusgateway", "harbefas"}
 SKIP_REPOS = {"bh-rat/awesome-mcp-enterprise", "Puliczek/awesome-mcp-security"}
 # Merged elsewhere after the maintainer deleted my PR (search API only finds PRs
 # still attributed to me): corosolto/client#490, folded into #500 by the maintainer.
-MANUAL_MERGED = {"corosolto/client"}
-# Cherry-picked by the maintainer, not opened by me (search API only finds PRs
-# authored by me): retransmission/retransmission#295, opened by ckerr from my
-# transmission/transmission#9096.
-MANUAL_REVIEW = {"retransmission/retransmission"}
+# retransmission/retransmission#295 cherry-picked and merged my
+# transmission/transmission#9096, opened by ckerr (search API only finds PRs
+# authored by me).
+MANUAL_MERGED = {"corosolto/client", "retransmission/retransmission"}
+MANUAL_REVIEW = set()
 
 COLS = 4
 CELL_W, CELL_H = 197, 52
