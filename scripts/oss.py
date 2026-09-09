@@ -2,6 +2,7 @@
 """Render oss.svg: the upstream projects I have contributed to."""
 
 import json
+import re
 import subprocess
 
 import theme
@@ -23,6 +24,11 @@ SKIP_REPOS = {"bh-rat/awesome-mcp-enterprise", "Puliczek/awesome-mcp-security"}
 MANUAL_MERGED = {"corosolto/client", "retransmission/retransmission"}
 MANUAL_REVIEW = set()
 
+# A repo only ever leaves the card if its PR is deleted, so a shorter answer from
+# the search API means the API came back short, not that the work went away.
+RENDERED = re.compile(r'--ui3\)">([^<]+)/</tspan><tspan\s+fill="var\(--tx\)">([^<]+)<'
+                      r'.*?font-size="9"[^>]*>([A-Z ]+)<', re.S)
+
 COLS = 4
 CELL_W, CELL_H = 197, 52
 PAD_Y = 96
@@ -39,12 +45,32 @@ def search(*flags):
     return {r for r in names if r.split("/")[0] not in MINE}
 
 
+def rendered():
+    """Repo -> status already on the card, so a short search cannot erase it."""
+    try:
+        svg = open(OUT).read()
+    except FileNotFoundError:
+        return {}
+    return {f"{owner}/{name}": status.lower()
+            for owner, name, status in RENDERED.findall(svg)
+            if f"{owner}/{name}" not in SKIP_REPOS and owner not in MINE}
+
+
 def collect():
     merged = search("--merged") | MANUAL_MERGED
     review = (search("--state", "open") | MANUAL_REVIEW) - merged
-    entries = [(r, "merged") for r in merged] + [(r, "in review") for r in review]
+    status = dict.fromkeys(merged, "merged") | dict.fromkeys(review, "in review")
+
+    was = rendered()
+    lost = sorted(r for r in was if r not in status)
+    demoted = sorted(r for r, s in was.items()
+                     if s == "merged" and status.get(r) == "in review")
+    if lost or demoted:
+        raise SystemExit(f"search came back short (lost {lost}, demoted {demoted}); "
+                         "card left as is")
+
     order = {"merged": 0, "in review": 1}
-    return sorted(entries, key=lambda e: (order[e[1]], e[0].lower()))
+    return sorted(status.items(), key=lambda e: (order[e[1]], e[0].lower()))
 
 
 def render(entries):
