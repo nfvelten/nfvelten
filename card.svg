@@ -80,18 +80,18 @@
   font-family="'Fira Code', 'Courier New', monospace"
   font-size="12" fill="var(--tx2)">Security proxy for AI agents and MCP servers — auth, allowlists, audit logging</text>
 
-<!-- Project 2: Agent Code Buddy -->
+<!-- Project 2: Gambito -->
 <text x="56" y="306"
   font-family="'EBG', Georgia, serif"
   font-size="16" font-weight="600"
-  fill="var(--ac)">Agent Code Buddy</text>
+  fill="var(--ac)">Gambito</text>
 <text x="844" y="306"
   font-family="'Fira Code', 'Courier New', monospace"
   font-size="11" text-anchor="end"
-  fill="var(--yl)">Java · Android</text>
+  fill="var(--yl)">Rust · QML</text>
 <text x="56" y="324"
   font-family="'Fira Code', 'Courier New', monospace"
-  font-size="12" fill="var(--tx2)">Human-in-the-loop approvals for AI agent tool calls via phone intercept</text>
+  font-size="12" fill="var(--tx2)">Keyboard-first Lichess client for tiling desktops, with Stockfish analysis</text>
 
 <!-- Project 3: Paperboy -->
 <text x="56" y="354"
@@ -106,18 +106,18 @@
   font-family="'Fira Code', 'Courier New', monospace"
   font-size="12" fill="var(--tx2)">Keyboard-first local-first RSS reader and podcast player — Firefox Add-on</text>
 
-<!-- Project 4: agent-memory -->
+<!-- Project 4: Oikos -->
 <text x="56" y="402"
   font-family="'EBG', Georgia, serif"
   font-size="16" font-weight="600"
-  fill="var(--ac)">agent-memory</text>
+  fill="var(--ac)">Oikos</text>
 <text x="844" y="402"
   font-family="'Fira Code', 'Courier New', monospace"
   font-size="11" text-anchor="end"
-  fill="var(--yl)">Rust  ·  in progress</text>
+  fill="var(--yl)">Python · Svelte · Docker</text>
 <text x="56" y="420"
   font-family="'Fira Code', 'Courier New', monospace"
-  font-size="12" fill="var(--tx2)">Semantic memory layer for AI agents</text>
+  font-size="12" fill="var(--tx2)">Self-hosted media and retro-gaming server, driven from the TV or a phone</text>
 
 <!-- Rule 3 -->
 <line x1="56" y1="440" x2="844" y2="440" stroke="var(--ui)" stroke-width="1"/>

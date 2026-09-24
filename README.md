@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[Arbitus](https://github.com/arbitusgateway/arbitus) · [Agent Code Buddy](https://github.com/harbefas/agent-code-buddy) · [Paperboy](https://github.com/harbefas/paperboy)
+[Arbitus](https://github.com/arbitusgateway/arbitus) · [Gambito](https://github.com/harbefas/gambito) · [Paperboy](https://github.com/harbefas/paperboy) · [Oikos](https://github.com/harbefas/oikos)
 
 </div>
 
