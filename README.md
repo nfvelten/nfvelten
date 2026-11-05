@@ -58,7 +58,7 @@ Useful prompts include: *Which production problems has Nicholas solved? What evi
 
 ## Open source
 
-<img src="https://raw.githubusercontent.com/nfvelten/nfvelten/main/oss.svg?v=3f80988e" alt="Open source" width="900"/>
+<img src="https://raw.githubusercontent.com/nfvelten/nfvelten/main/oss.svg?v=f08550ad" alt="Open source" width="900"/>
 
 <!-- OSS:END -->
 
